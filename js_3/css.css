@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin: 0;
+}
+li{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.header{
+    display: flex;
+    height: 20vh;
+}
+/*---------------logo---------------*/
+.logo{
+    
+    flex-grow: 2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.img_logo{
+    width: 60px;
+    height: 60px;
+}
+/*---------------navbar---------------*/
+.navbar{
+    flex-grow: 2;
+}
+.main-nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-nav li a{
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    margin: 0px 10px;;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+.main-nav li:hover a{
+    color: teal;
+  
+}
+/*---------------navbar2---------------*/
+
+.navbar2 {
+    display: flex;
+    opacity: 0.9;
+    top:-210px;
+    position: absolute;
+    background-color:rgb(31, 33, 68);
+  
+    transition: all ease 0.5s;
+}
+.navbar2 .main-nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+.main-nav2 li a{
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    margin: 0px 10px;;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+.main-nav2 li a:hover{
+    color: brown;
+}
+.close{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+/*---------------content---------------*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.content p{
+    font-size: 30px;
+    color: white;
+}
+.btn{
+margin-top: 35px;
+}
+.btn-read{
+    padding: 10px 25px;
+    font-size: 1.2em;
+    color: teal;
+    border-radius: 5px;
+}
+.btn-read:hover{
+    border: 1px solid teal;
+}
+.btn-contact{
+    padding: 10px 25px;
+    font-size: 1.2em;
+    color:white;
+    background:lightseagreen;
+    border-radius: 5px;
+}
+.btn-contact:hover{
+    background:lightcoral;
+}
+
+/*---------------Responsive---------------*/
+.menu{
+    cursor: pointer;
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin-top:30px;
+}
+
+@media (max-width:780px){
+    .menu{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+    .main-nav{
+        display: none;
+    }
+    
+   
+}
+@media (min-width:780px){
+  
+    .navbar2{
+        display: none;
+    }
+}
+
+
