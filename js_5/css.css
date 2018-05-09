@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+li{
+    list-style-type: none;
+}
+.container{
+
+    padding: 20px 40px;
+    margin: 0px 20vw;
+    margin-top: 10vh;
+    background: lightseagreen;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px blanchedalmond;
+ 
+}
+    .container>h1{
+        font-size: 25px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+    .container input[type=text]{
+        outline: none;
+        border: none;
+        padding: 7px ;
+        border-radius: 3px;
+        width: 100%;
+        font-size: 15px;
+        transition: all 0.5s;
+       
+    }
+    .container input[type=number]:focus{
+        background: rgb(210, 212, 210);
+        transform: translateY(-6px);
+    }
+    .container>h3{
+        margin-top:20px;
+        color:white;
+        display: none;
+    }
+    .data{
+        font-size: 18px;
+        font-weight: 600;
+        color: brown;
+    }
