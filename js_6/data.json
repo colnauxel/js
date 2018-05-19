@@ -1,0 +1,34 @@
+{
+    "product":[
+        {
+            "id_product":"P_001",
+            "name_product":"phone",
+            "category":"multimedia",
+            "price":"100"
+        },
+        {
+            "id_product":"PC_002",
+            "name_product":"laptop",
+            "category":"computer",
+            "price":"56"
+        },
+        {
+            "id_product":"PC_003",
+            "name_product":"pc",
+            "category":"computer",
+            "price":"231"
+        },
+        {
+            "id_product":"ED_004",
+            "name_product":"fridge",
+            "category":"electronic device",
+            "price":"21"
+        },
+        {
+            "id_product":"ED_001",
+            "name_product":"tivi",
+            "category":"electronic device",
+            "price":"145"
+        }
+    ]
+}

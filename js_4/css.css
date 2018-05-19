@@ -53,6 +53,7 @@ header{
         transition: all ease 0.3s;
         text-transform: uppercase;
         color: white;
+        border-bottom: 2px solid springgreen;
         display: block;
     }
     .menu>li>a:hover{
